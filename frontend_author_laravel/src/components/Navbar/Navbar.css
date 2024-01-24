@@ -1,0 +1,27 @@
+.link {
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navbar_link {
+    display: flex;
+    flex-direction: row;
+    grid-gap: 2rem;
+}
+
+.navbar_btn {
+    display: flex;
+    flex-direction: row;
+    grid-gap: 2rem;
+}
+
+.navbar_btn button {
+    padding: 0.5rem 1rem;
+}

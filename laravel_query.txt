@@ -1,0 +1,5 @@
+composer create-project laravel/laravel name_app
+php artisan make:model Product --migration // tạo model. tạo thêm migration để thêm vào database 
+php artisan migrate // tạo bảng trong database 
+php artisan make:controller ProductController --api // phải thêm --api để nó tự tạo mẫu sẵn
+php artisan route:list // show ra tất cả các phương thức trong databse 
